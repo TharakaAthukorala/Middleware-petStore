@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PetDataTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-18T16:50:04" hostname="DESKTOP-D4GEC6D" time="5.321">
+  <properties/>
+  <testcase name="testPetAddEndpoint()" classname="PetDataTest" time="4.898"/>
+  <testcase name="testPetUpdateEndpoint()" classname="PetDataTest" time="0.213"/>
+  <testcase name="testPetEndpoint()" classname="PetDataTest" time="0.06"/>
+  <testcase name="testPetDeleteEndpoint()" classname="PetDataTest" time="0.136"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 18, 2021 10:19:56 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.1.Final
+Nov 18, 2021 10:20:03 PM org.jboss.resteasy.core.ResteasyDeploymentImpl processApplication
+INFO: RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.microprofile.petstore.PetstoreRestApplication
+Nov 18, 2021 10:20:03 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.1.Final
+Nov 18, 2021 10:20:04 PM io.quarkus.bootstrap.runner.Timing printStartupTime
+INFO: Quarkus 1.7.6.Final on JVM started in 9.797s. Listening on: http://0.0.0.0:8081
+Nov 18, 2021 10:20:04 PM io.quarkus.bootstrap.runner.Timing printStartupTime
+INFO: Profile test activated. 
+Nov 18, 2021 10:20:04 PM io.quarkus.bootstrap.runner.Timing printStartupTime
+INFO: Installed features: [cdi, jaeger, mutiny, rest-client, resteasy, resteasy-jsonb, security, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-health, smallrye-jwt, smallrye-metrics, smallrye-openapi, smallrye-opentracing, swagger-ui, vertx, vertx-web]
+]]></system-err>
+</testsuite>
